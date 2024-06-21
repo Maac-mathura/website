@@ -1,29 +1,31 @@
+/* General Styling */
 .home-page {
-  padding: 1px;
+  padding: 10px;
 }
 
 .main-content {
-  margin-top: 2px;
+  margin-top: 20px;
 }
 
-/* .bg1 {
-  background-image: url('../images//backgroundtext.png');
-  background-size: cover;
-  background-position: center;
-} */
+/* About MAAC Section */
+.bg1 {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
 
 .centered-text {
   font-family: 'Conflate', sans-serif;
-  font-size: 3.5vw; 
+  font-size: 3vw;
   text-align: center;
   color: #ffd505;
-  margin: 1px;
+  margin: 10px 0;
 }
 
 .about-maac {
-  font-size: 2vw; 
+  font-size: 2vw;
   line-height: 1.15em;
-  margin-bottom: 2vw; 
+  margin-bottom: 2vw;
   letter-spacing: 0.5px;
   color: black;
   text-align: center;
@@ -35,11 +37,11 @@
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 100%;
-  padding: 0 5vw; 
+  padding: 0 5vw;
   text-align: center;
 }
 
-/* src/PlacementsSection.css */
+/* Placements Section */
 .placements {
   display: flex;
   flex-direction: row;
@@ -86,12 +88,12 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* src/CoursesSection.css */
+/* Courses Section */
 .courses {
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 20px;
-  margin: 20px 0px 0px 6px;
+  margin: 20px 0;
 }
 
 .courses-grid {
@@ -101,7 +103,7 @@
 }
 
 .course-item {
-  flex: 1 1 calc(30% - 85px); /* Reduced size by around 10% */
+  flex: 1 1 calc(30% - 40px);
   margin: 10px;
   position: relative;
   overflow: hidden;
@@ -114,11 +116,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.course-video img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+.course-video img,
 .course-video video {
   width: 100%;
   height: auto;
@@ -162,20 +160,18 @@
   display: block;
 }
 
-/* General container styling */
+/* How It Works Section */
 .how-it-works {
   padding: 40px 20px;
   background-color: #fff;
   border-radius: 8px;
   margin: 20px 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  justify-content: center;
+  text-align: center;
 }
 
-/* Header styling */
 .how-it-text {
   margin-bottom: 40px;
-  justify-content: center;
 }
 
 .how {
@@ -183,62 +179,36 @@
   padding: 10px 20px;
   border-radius: 8px;
   display: inline-block;
-  justify-content: center;
 }
 
-/* Step container with flex layout */
 .step-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 30px; /* Space between steps */
+  gap: 30px;
 }
 
-/* Step row styling */
 .step-row {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px; /* Space between number, text and image */
+  gap: 20px;
 }
 
 .rev-row {
   flex-direction: row-reverse;
 }
 
-/* Number styling */
 .step-number {
   font-size: 72px;
   font-weight: bold;
   color: #fde96d;
-  margin-right: 20px;
 }
 
-.rev-row .step-number {
-  margin-left: 20px;
-  margin-right: 0;
-}
-
-/* Text content styling */
 .step-content {
   flex: 1;
-  text-align: center;
 }
 
-.step-content h4 {
-  margin: 0 0 10px;
-}
-
-.step-content p {
-  margin: 0;
-  font-size: 16px;
-  color: #555;
-}
-
-/* Image styling */
 .step-image {
   flex: 1;
-  text-align: center;
 }
 
 .img-fluid {
@@ -248,49 +218,26 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive design adjustments */
+/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-  .step-row {
-    flex-direction: column;
-    text-align: center;
+  .home-page {
+    padding: 5px;
   }
-
+  .step-row,
   .rev-row {
     flex-direction: column;
   }
 
   .step-number {
-    margin: 0 0 10px;
+    margin-bottom: 10px;
   }
 
   .step-content {
     text-align: center;
   }
 
-  .rev-row .step-number {
-    margin: 0 0 10px;
-  }
-}
-
-
-
-@media (max-width: 768px) {
-  .course-item {
-    flex: 1 1 calc(45% - 20px);
-  }
-}
-
-@media (max-width: 480px) {
-  .course-item {
-    flex: 1 1 100%;
-  }
-}
-
-
-@media (max-width: 768px) {
   .placements {
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .placements-content,
@@ -301,17 +248,7 @@
   .companies img {
     width: calc(50% - 10px);
   }
-}
 
-@media (max-width: 480px) {
-  .companies img {
-    width: 100%;
-  }
-}
-
-
-@media (max-width: 768px) {
-  
   .row1,
   .row {
     padding: 0 2vw;
@@ -326,8 +263,19 @@
   }
 }
 
-@media (max-width: 576px) {
-  
+@media (max-width: 480px) {
+  .home-page {
+    padding: 2px;
+  }
+
+  .course-item {
+    flex: 1 1 100%;
+  }
+
+  .companies img {
+    width: 100%;
+  }
+
   .centered-text {
     font-size: 5vw;
   }
@@ -336,4 +284,3 @@
     font-size: 4vw;
   }
 }
-

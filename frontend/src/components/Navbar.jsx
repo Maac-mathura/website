@@ -40,7 +40,7 @@ const Navbar = () => {
         <li className="nav-item"><Link to="/" onClick={() => setIsMenuOpen(false)} style={{ color: 'white' }}>Home</Link></li>
         <li className="nav-item dropdown">
           <div className="dropdown-toggle">
-            <Link to="/" onClick={() => setIsMenuOpen(false)} style={{ color: 'white' }}>Courses</Link>
+            Courses
             <span className="dropdown-arrow">&#x25BC;</span>
           </div>
           <ul className="dropdown-content">

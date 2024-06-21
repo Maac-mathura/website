@@ -24,8 +24,11 @@
 
 .form-svg-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .enquiry-form {
@@ -37,7 +40,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-  margin: 0px 0px 50px;
+  margin: 0 25px 25px;
 }
 
 .svg-container {
@@ -100,12 +103,40 @@
 
   .enquiry-form {
     max-width: 300px;
-    margin: 25px auto;
     padding: 1em;
+    margin: 25px auto;
   }
 
   .svg-container {
     max-width: 300px;
     margin: 25px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .enquiry-form {
+    max-width: 280px;
+    padding: 1em;
+  }
+
+  .svg-container {
+    max-width: 280px;
+  }
+  .svg-container img {
+    width: 100%;
+    height: 38vh;
+  }
+
+  .form-row label {
+    font-size: 16px;
+  }
+
+  .form-row input,
+  .form-row select {
+    padding: 0.4em;
+  }
+
+  .form-row button {
+    padding: 0.6em;
   }
 }

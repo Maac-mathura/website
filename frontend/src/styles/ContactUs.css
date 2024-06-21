@@ -65,5 +65,10 @@
     .contact-content {
       padding: 10px;
     }
+    .enquiry-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
   }
   
