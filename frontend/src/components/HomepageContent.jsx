@@ -13,12 +13,18 @@ import company4 from '../images/company4.png';
 import company5 from '../images/company5.png';
 import company6 from '../images/company6.png';
 
-import video1 from '../videos/video1.mp4';
+// import video1 from '../videos/video1.mp4';
 import video2 from '../videos/video2.mp4';
 import video3 from '../videos/video3.mp4';
 import video4 from '../videos/video4.mp4';
 import video5 from '../videos/video5.mp4';
-import video6 from '../videos/video6.mp4';
+// import video6 from '../videos/video6.mp4';
+
+// import image1 from '../gifimages/image1.gif'
+import image from '../gifimages/image.gif'
+// import image6 from '../gifimages/image6.gif'
+import image3 from '../gifimages/image3.png'
+
 
 import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
@@ -74,18 +80,17 @@ const Home = () => {
       </div>
     </div>
     <div className="placements-content">
-    <h2>3D Animation Courses</h2>
-    <p>Learn animation with the top animation courses at MAAC. Discover animation courses fees and more details about animation related courses.</p>
     </div>
       <div className="courses">
       <div className="courses-grid">
         <div className="course-item">
           <div className="course-video">
-            <video autoPlay loop muted playsInline>
-              <source src={video1} type="video/mp4" />
-            </video>
+            {/* <video autoPlay loop muted playsInline> */}
+              <img src={image} alt="gif" />
+            {/* </video> */}
             <div className="course-content">
-              
+            <h2>3D Animation Courses</h2>
+            <p>Learn animation with the top animation courses at MAAC. Discover animation courses fees and more details about animation related courses.</p>
             </div>
           </div>
         </div>
@@ -94,6 +99,7 @@ const Home = () => {
             <video autoPlay loop muted playsInline>
               <source src={video2} type="video/mp4" />
             </video>
+            {/* <img src={image6} alt="gif" /> */}
             <div className="course-content">
               <h2>VFX Courses</h2>
               <p>Join a VFX course that covers VFX animation and Learn 3d VFX at MAAC. Know VFX course fees and more details about VFX training.</p>
@@ -103,7 +109,7 @@ const Home = () => {
         <div className="course-item">
           <div className="course-video">
             <video autoPlay loop muted playsInline>
-              <source src={video3} type="video/mp4" />
+              <source src={video5} type="video/mp4" />
             </video>
             <div className="course-content">
               <h2>Gaming Courses</h2>
@@ -116,6 +122,7 @@ const Home = () => {
             <video autoPlay loop muted playsInline>
               <source src={video4} type="video/mp4" />
             </video>
+            {/* <img src={image1} alt="gif" /> */}
             <div className="course-content">
               <h2>Web & Graphic Design Courses</h2>
               <p>See all graphic design courses in Delhi & web designing programs. Options to learn graphic designing in Delhi and related courses fees details.</p>
@@ -125,7 +132,7 @@ const Home = () => {
         <div className="course-item">
           <div className="course-video">
             <video autoPlay loop muted playsInline>
-              <source src={video5} type="video/mp4" />
+              <source src={video3} type="video/mp4" />
             </video>
             <div className="course-content">
               <h2>More Career Courses</h2>
@@ -135,9 +142,10 @@ const Home = () => {
         </div>
         <div className="course-item">
           <div className="course-video">
-            <video autoPlay loop muted playsInline>
+            {/* <video autoPlay loop muted playsInline>
               <source src={video6} type="video/mp4" />
-            </video>
+            </video> */}
+            <img src={image3} alt="gif" />
             <div className="course-content">
               <h2>Short Term Courses</h2>
               <p>Choose from MAAC courses focussed on specific learning goals in mind for professionals looking to Upskill or add to their skill set.</p>

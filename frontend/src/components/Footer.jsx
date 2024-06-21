@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
-import maac from '../images/maac.png'
+import maac from '../images/maac.jpg'
 import '../styles/Footer.css'; 
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const whatsappUrl = createWhatsAppLink(phoneNumber, message);
           <h3>Quick Links</h3>
           <ul>
             <li><Link to="/"  style={{ color: 'white' }}>Home</Link></li>
-            <li><Link to="/CoursePage"  style={{ color: 'white' }}>Courses</Link></li>
+            <li><Link to="/"  style={{ color: 'white' }}>Courses</Link></li>
             <li><Link to="/ShortTermSpecializedPage"  style={{ color: 'white' }}>Short Term</Link></li>
             <li><Link to="/MoreCareerCoursesPage"  style={{ color: 'white' }}>More Courses</Link></li>
             <li><Link to="/Placement"  style={{ color: 'white' }}>Placements</Link></li>

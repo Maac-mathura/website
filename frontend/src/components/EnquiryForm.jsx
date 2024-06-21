@@ -53,7 +53,7 @@ const EnquiryForm = () => {
     }
     setErrors({});
     try {
-      const response = await fetch('http://localhost:5000/send-email', {
+      const response = await fetch('https://website-1-a1dl.onrender.com/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
