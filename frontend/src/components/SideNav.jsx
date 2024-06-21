@@ -22,7 +22,7 @@ const SideNavbar = () => {
       <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
         <FaWhatsapp className="icon" />
       </a>
-      <a href="tel:91885933392">
+      <a href="tel:918859833392">
         <FaPhone className="icon" />
       </a>
     </div>
