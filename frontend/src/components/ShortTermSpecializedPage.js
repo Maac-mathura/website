@@ -114,7 +114,7 @@ const ShortTermSpecializedPage = () => {
         <h1 className="title">Short-term Courses</h1>
         <div className="info">
           <span>Duration: Less than 12 months</span>
-          <span>Skill Level: Intermediate</span>
+          <span>Skill Level: Beginner</span>
         </div>
       </div>
       <p className="paragraph">
