@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import image from '../images/maac.jpg'
 import image1 from '../companies/image.png'
 import image2 from '../companies/image1.png'
 import image3 from '../companies/image2.png'
@@ -54,23 +54,23 @@ const logoPaths = [
 ];
 
 const PlacementPage = () => {
-  const svgMarkup = `
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-    <defs>
-      <clipPath id="__lottie_element_2">
-        <rect width="500" height="500" x="0" y="0"></rect>
-      </clipPath>
-      <clipPath id="__lottie_element_5">
-        <path d="M0,0 L1080,0 L1080,1080 L0,1080z"></path>
-      </clipPath>
-      <clipPath id="__lottie_element_10">
-        <path fill="#ffffff" clip-rule="nonzero" d=" M-185,-80.5 C-196.75,-46.25 -188.57899475097656,-45.13199996948242 -186.5,-42.5 C-176.78500366210938,-30.20400047302246 -136.5050048828125,-16.417999267578125 -129.99000549316406,-14.460000038146973 C-125.70700073242188,-13.17300033569336 -128.5,-22.5 -128.5,-22.5 C-128.5,-22.5 -150.5,-47 -157.5,-56.5 C-164.21099853515625,-65.60800170898438 -181.25399780273438,-91.41899871826172 -185,-80.5" fill-opacity="1"></path>
-      </clipPath>
-    </defs>
-    <!-- You can add more SVG elements here to see the clipping paths in action -->
-    <rect x="50" y="50" width="400" height="400" fill="blue" clip-path="url(#__lottie_element_2)" />
-  </svg>
-`;
+//   const svgMarkup = `
+//   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+//     <defs>
+//       <clipPath id="__lottie_element_2">
+//         <rect width="500" height="500" x="0" y="0"></rect>
+//       </clipPath>
+//       <clipPath id="__lottie_element_5">
+//         <path d="M0,0 L1080,0 L1080,1080 L0,1080z"></path>
+//       </clipPath>
+//       <clipPath id="__lottie_element_10">
+//         <path fill="#ffffff" clip-rule="nonzero" d=" M-185,-80.5 C-196.75,-46.25 -188.57899475097656,-45.13199996948242 -186.5,-42.5 C-176.78500366210938,-30.20400047302246 -136.5050048828125,-16.417999267578125 -129.99000549316406,-14.460000038146973 C-125.70700073242188,-13.17300033569336 -128.5,-22.5 -128.5,-22.5 C-128.5,-22.5 -150.5,-47 -157.5,-56.5 C-164.21099853515625,-65.60800170898438 -181.25399780273438,-91.41899871826172 -185,-80.5" fill-opacity="1"></path>
+//       </clipPath>
+//     </defs>
+//     <!-- You can add more SVG elements here to see the clipping paths in action -->
+//     <rect x="50" y="50" width="400" height="400" fill="blue" clip-path="url(#__lottie_element_2)" />
+//   </svg>
+// `;
   return (
     <div className="placement-page">
       <div className="main-content-placement">
@@ -90,10 +90,9 @@ const PlacementPage = () => {
             </p>
           </div>
           <div className="right-section">
-      <div
-        className="image-or-svg"
-        dangerouslySetInnerHTML={{ __html: svgMarkup }}
-      />
+      <div className="image-or-svg">
+        <img src={image} alt='maac logo'/>
+      </div>
     </div>
         </div>
         <div className="company-logos-grid">
