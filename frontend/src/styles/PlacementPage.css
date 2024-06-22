@@ -69,6 +69,9 @@
     .company-logo {
       width: 100%;
     }
+    .placementimg{
+      width: 250px;
+    }
   }
   /* PlacementPage.css */
 .placement-page {

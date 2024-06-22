@@ -90,11 +90,10 @@
 
   @media (max-width: 768px) {
     .main-container {
-
       height: auto;
     }
   
-    .main-container-more{
+    .main-container-sort{
       width: auto;
     }
 
