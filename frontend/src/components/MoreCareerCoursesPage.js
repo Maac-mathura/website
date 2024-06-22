@@ -28,7 +28,7 @@ import Cinema4D from '../icons/Cinema4D.jpeg'
 const courses = [
   {
     title: "D3D - Program in 3D Animation Filmmaking",
-    duration: "18 Months",
+    duration: "12 Months",
     skillLevel: "Advanced",
     description: "It is a mix of imagination, creativity & technology. With MAAC's 3D Animation Film making course, a career course in 3D animation filmmaking, you will learn all the creative aspects of animation like pre-production, storyboarding, filmmaking and character animation. The 3D animation course prepares you to enter the professional world of 3D animation by providing you with extensive classroom and practical training, latest software and portfolio development.",
     softwareCovered: [
@@ -44,7 +44,7 @@ const courses = [
   },
   {
     title: "VFX PLUS- Program in Visual Effects",
-    duration: "18 Months",
+    duration: "12 Months",
     skillLevel: "Advanced ",
     description: "VFX Plus is a professional course designed to train you in the latest visual effects software and techniques that are extensively used in filmmaking. From Bollywood movies like Baahubali, to Hollywood movies like Dawn of the Planet of the Apes and web series like Game of Thrones, all have massive use of Visual Effects. You will learn the fundamentals of digital designs, layer-based compositing, clean plate & wire removal, concepts of set extension & CG integration and match moving & camera tracking. All the aspects prepare you to work on high-end projects in an authentic studio environment.",
     softwareCovered: [
@@ -62,7 +62,7 @@ const courses = [
   },
   {
     title: "APDMC - Advanced Program in Digital Media Creation",
-    duration: "18 Months",
+    duration: "12 Months",
     skillLevel: "Advanced",
     description: "Program in Digital Media Creation makes you an expert in building state-of-the-art print, web, and 3D animation content for different platforms and audiences. If you dream to work as a 3D Animator or a Communication Designer in a reputed company, then join Program in Digital Media Creation at MAAC now. The career course teaches you the fundamentals of drawing, concepts of design and illustration, concepts of web designing, and a lot more.",
     softwareCovered: [

@@ -101,7 +101,7 @@ const GamingPage = () => {
         <div className="game-content">
           <h1>ADIDGP - Advanced Program in Interactive Game Design Plus</h1>
           <div className="game-details">
-            <span>Duration - 24 Months</span>
+            <span>Duration - 16 Months</span>
             <span>Skill Level - Advanced</span>
           </div>
         </div>

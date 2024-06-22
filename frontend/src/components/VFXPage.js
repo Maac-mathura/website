@@ -50,7 +50,7 @@ const VFXPage = () => {
         <div className="vfx-content">
           <h1>ADVFX PLUS - Advanced Program in Visual Effects Film Making</h1>
           <div className="vfx-details">
-            <span>Duration - 24 Months</span>
+            <span>Duration - 16 Months</span>
             <span>Skill Level - Advanced</span>
           </div>
         </div>

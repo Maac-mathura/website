@@ -92,6 +92,14 @@
     .main-container {
       height: auto;
     }
+
+    .main-container-more{
+      width: auto;
+    }
+
+    .paragraph{
+      margin: 0px;
+    }
   
     .title {
       font-size: 1.8em;

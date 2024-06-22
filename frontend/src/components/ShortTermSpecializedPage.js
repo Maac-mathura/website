@@ -42,7 +42,7 @@ const courses = [
   },
   {
     title: "Maya Pro",
-    duration: "10 Months",
+    duration: "4 Months",
     skillLevel: "Intermediate",
     description: "MAYA Pro is one of the most sought after short-term courses at MAAC. It covers areas of animation including character animation, digital sculpting, and 3D design and modeling. Maya Pro takes you through the nuances of modeling, texturing, lighting, rigging, VFX and animation with the help of two advanced and industry-leading software, Maya and Mudbox. Maya Pro can be used for animation, environments, motion graphics, virtual reality, and character creation.",
     softwareCovered: [

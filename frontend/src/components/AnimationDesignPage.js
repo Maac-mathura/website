@@ -58,7 +58,7 @@ const AnimationDesignPage = () => {
         <div className="content">
           <h1>AD3D Edge PLUS - Advanced Program in 3D Animation Design</h1>
           <div className="details">
-            <span>Duration - 24 Months</span>
+            <span>Duration - 16 Months</span>
             <span>Skill Level - Advanced</span>
           </div>
         </div>

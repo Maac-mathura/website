@@ -60,7 +60,7 @@ const WebGraphicPage = () => {
         <div className="web-game-content">
           <h1>APDMD - Advanced Program in Digital Media & Design</h1>
           <div className="web-game-details">
-            <span>Duration - 24 Months</span>
+            <span>Duration - 16 Months</span>
             <span>Skill Level - Advanced</span>
           </div>
         </div>
