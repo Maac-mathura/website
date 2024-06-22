@@ -124,7 +124,7 @@ const MoreCareerCoursesPage = () => {
       <div className="main-container-more">
         <h1 className="title">MORE CAREER COURSES</h1>
         <div className="info">
-          <span>Duration - 12 to 20 Months</span>
+          <span>Duration - 6 to 20 Months</span>
           <span>Skill Level - Advanced</span>
         </div>
       </div>
